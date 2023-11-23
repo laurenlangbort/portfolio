@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.main-header {
+    background-color: #333;
+    padding: 15px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Adjust the height as needed */
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li {
+    margin-right: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: #ffd700; /* Change to your preferred hover color */
+}
